@@ -2,7 +2,6 @@
 #include <fstream>
 #include <string>
 
-
 //Функция overwrite, которая принимает путь к файлу и строку, которая полностью заменяет содержимое файла.
 
 bool overwrite(const std::string& filePath, const std::string& newText) {
@@ -40,7 +39,6 @@ int main() {
         std::cout << "Не удалось открыть файл для записи." << std::endl;
         return 1;
     }
-
 
     std::string input;
     while (true) {
